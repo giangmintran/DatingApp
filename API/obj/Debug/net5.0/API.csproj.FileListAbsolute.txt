@@ -7,16 +7,11 @@ F:\DatingApp\API\bin\Debug\net5.0\API.runtimeconfig.dev.json
 F:\DatingApp\API\bin\Debug\net5.0\API.dll
 F:\DatingApp\API\bin\Debug\net5.0\ref\API.dll
 F:\DatingApp\API\bin\Debug\net5.0\API.pdb
-F:\DatingApp\API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-F:\DatingApp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-F:\DatingApp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-F:\DatingApp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\DatingApp\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
 F:\DatingApp\API\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
 F:\DatingApp\API\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
 F:\DatingApp\API\obj\Debug\net5.0\API.AssemblyInfo.cs
 F:\DatingApp\API\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
-F:\DatingApp\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
 F:\DatingApp\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
 F:\DatingApp\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
 F:\DatingApp\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.xml
