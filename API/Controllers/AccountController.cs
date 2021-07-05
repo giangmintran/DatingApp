@@ -45,7 +45,7 @@ namespace API.Controllers
             {
                 Username = user.UserName,
                 Token = _tokenService.CreateToken(user)
-            };
+            }; 
         } 
 
         [HttpPost("login")]
