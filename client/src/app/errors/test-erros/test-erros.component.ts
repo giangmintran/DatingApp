@@ -23,7 +23,7 @@ export class TestErrosComponent implements OnInit {
   }
 
   get400Error() {
-    this.http.get(this.baseUrl + 'buggy/bad-request').subscribe(response => {
+    this.http.get(this.baseUrl + 'buggy/bad-').subscribe(response => {
       console.log (response)
     }, error => {
       console.log(error);
