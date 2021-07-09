@@ -29,7 +29,7 @@ export class PhotoEditorComponent implements OnInit {
   }
 
 
-  fileOverBase(e:any) {
+  fileOverBase(e: any) {
     this.hasBaseDropzoneOver = e;
   }
 
@@ -48,16 +48,17 @@ export class PhotoEditorComponent implements OnInit {
   deletePhoto(photoId : number) {
     this.memberService.deletePhoto(photoId).subscribe(() => {
       this.member.photos = this.member.photos.filter(x => x.id !==photoId);
-      
+
     })
   }
 
   initializeUploader() {
     this.uploader = new FileUploader({
-      url: this.baseUrl+ 'user/add-photo',
+      url: this.baseUrl+ 'users/add-photo',
       authToken: 'Bearer ' + this.user.token,
       isHTML5: true,
       allowedFileType: ['image'],
+      removeAfterUpload: true,
       autoUpload: false,
       maxFileSize: 10*1024*1024
     });
@@ -66,8 +67,8 @@ export class PhotoEditorComponent implements OnInit {
       file.withCredentials = false;
     }
 
-    this.uploader.onSuccessItem = (item, response, status,headers) => {
-      if(response ){
+    this.uploader.onSuccessItem = (item, response, status, headers) => {
+      if(response){
         const photo = JSON.parse(response);
         this.member.photos.push(photo);
       }
