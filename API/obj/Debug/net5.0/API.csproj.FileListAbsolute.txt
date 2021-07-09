@@ -57,3 +57,6 @@ F:\DatingApp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.
 F:\DatingApp\API\bin\Debug\net5.0\Data\UserSeedData.json
 F:\DatingApp\API\bin\Debug\net5.0\AutoMapper.dll
 F:\DatingApp\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\DatingApp\API\bin\Debug\net5.0\CloudinaryDotNet.dll
+F:\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
+F:\DatingApp\API\bin\Debug\net5.0\Newtonsoft.Json.dll
